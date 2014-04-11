@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+
+---------------------------------------------
+Style sheet version 0.0.0
+Last edited 12/2/14
+By James Renwick
+---------------------------------------------
+
+Contents:
+
+1 - Basic element styles
+2 - Layout styles
+	2.1 - header
+	2.2 - nav
+	2.3 - main
+	2.5 - footer
+3 - Spaces
+
+*/
+
+/*  1 - Basic element styles  */
+
+body,
+html {
+margin:0;
+padding:0;
+color:#000;
+background: #FFFFFF;
+font-family: helvetica;
+}
+
+body.blog-body {	
+background: #242424;
+}
+
+* html #footer {
+height:1px;
+}
+
+h1 {
+margin:0;
+font-size: 3em;
+color: white;
+}
+h2 {
+margin:0 0 1em;
+font-size: 2.5em;
+text-shadow: rgba(51,51,51,0.7) 2px 2px 2px;
+}
+p {
+    font-size: 1.2em;
+	1em
+;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-shadow: rgba(51,51,51,0.7) 2px 2px 2px;
+}
+
+
+/*  2 - Layout styles  */
+
+
+#wrap {
+width: 100%;
+height: 100%;
+margin:0 auto;
+background: #5C5C63; 
+background-position:fixed;
+-webkit-background-size: cover;    
+-moz-background-size: cover;    
+-o-background-size: cover;    
+background-size: cover;
+}
+
+/* Used when background fixed does not work */
+#wrap.plain {
+background: url(../img/nav2.png) repeat center center !important;
+    -webkit-transition: background 1s ease-in;  
+    -moz-transition: background 1s ease-in;  
+    -o-transition: background 1s ease-in;  
+    transition: background 1s ease-in; 
+}
+
+/*  2.1 - header  */
+
+
+#header {
+padding:5px 10px;
+padding: 4% 5% 2% 5%;  
+background: #808080;  
+background-image: url(img/nav2.png);  
+color: white;
+z-index:1000;
+}
+#header.blog-header {
+padding: 1%;  
+}
+
+#header a {
+	text-decoration:none;
+	color:white;
+}
+
+#header.blog-header h1 {
+	font-size:2em;
+}
+
+
+
+#articles {
+	position:relative;
+width: 76%;
+margin: 0% auto 5%;
+	color: black;
+}
+
+#articles p{
+	text-shadow:none;
+	font-weight:normal;
+}
+
+
+/*  2.3 - main  */
+
+#main {
+	position:relative;
+width: 76%;
+margin: 100% auto 5%;
+padding: 2%;
+background:#9c9;
+background: rgb(145, 145, 145);  
+background: rgba(145, 145, 145, 0.8);
+background-image: aliceblue;  color: white;
+    -webkit-transition: margin 1s ease;  
+    -moz-transition: margin 1s ease;  
+    -o-transition: margin 1s ease;  
+    transition: margin 1s ease; 
+}
+
+
+/*  2.4 - sidebar  
+
+
+#sidebar {
+float:left;
+width:230px;
+padding:10px;
+background-image:url(img/nav.png);
+color:white;
+}*/
+
+/*  2.5 - footer  */
+
+
+#footer {
+clear:both;
+padding:5px 10px;
+background:#cc9;
+}
+#footer p {
+margin:0;
+}
+
+/* 3 - Editor */
+
+body.edit {
+	display:table;
+}
+#window {
+	display:table-row;
+}
+#editor {
+	display:table-cell;
+	width:30%;
+	background: white;
+	border-right: 5px ridge gray;
+	padding: 0 2%;
+	overflow:scroll;
+}
+#preview {
+	display:table-cell;
+	width:100%;
+	overflow:scroll;
+}
+
+#editor p{
+	text-shadow:none;
+	font-size:1em;
+	font-weight:normal;
+}
+.submit {
+	width:100%;
+	padding:2%
+}
+.thick {
+border: 1px solid green;
+margin: 10% 0;
+}
+.delete {
+	background-image: url(img/cross.png);
+background-size: 100%;
+opacity: 0.2;
+position: absolute;
+width: 50px;
+height: 50px;
+float: right;
+right: 10px;
+top: 10px;
+}
+.article .delete a {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+}
+.article:hover .delete {
+opacity: 1;
+}
+.article:hover .delete:hover {
+opacity: 1;
+	background-image: url(img/cross-hover.png);
+}
+
+/*  3 - Articles  */
+.article {
+margin: 4% 0;
+border-bottom: lightgray 2px solid;
+width: 100%;
+top: 0;
+left: 0%;
+position: relative;
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-o-transition: all 0.6s ease;
+transition: all 0.6s ease;
+}
+.article:hover {
+width: 102%;
+left: -1%;
+top: -2px;
+box-shadow: 0px 0px 0.6em 0em grey;
+border-radius: 0 0 1em 1em;
+-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+-o-transition: all 0.2s ease;
+transition: all 0.2s ease;
+}
+
+.article a{
+	text-decoration:none;
+	color:red;
+}
+.article .image {
+width: 100%;
+height: 300px;
+cursor: pointer;
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 6s ease;
+-o-transition: all 6s ease;
+transition: all 0.6s ease;
+}
+.article:hover .image {
+height: 304px;
+-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+-o-transition: all 0.2s ease;
+transition: all 0.2s ease;
+}
+.article p,
+.article h3{
+	padding:0 5%;
+}
+
+.boxLink {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+}
+
+/*  Sort  */
+
+#sort {
+text-align: center;
+width: 20em;
+height: 100%;
+margin: auto;
+position: relative;
+padding: 2% 0;
+}
+
+#sort p {
+text-shadow: none;
+margin: 0;
+float: left;
+font-size: 1em;
+font-weight: bold;
+padding: 0 1em;
+color:red;
+}
+
+#sort form {
+margin: 0;
+float: left;
+}
+
+#sort .submit {
+width: 100%;
+margin: 0;
+border: none;
+background: none;
+padding: 0 0.5em;
+text-align: left;
+font-size: 1em;
+font-weight: bold;
+line-height: 1.3em;
+cursor:pointer;
+color:red;
+}
+/*  4 - Tablets  */
+
+@media only screen and (max-width: 800px) {
+#main {
+	margin-top:56%;
+width: 86%; 
+}
+.article .image {
+height: 200px;
+}
+}
+
+/*  5 - Mobiles  */
+
+@media only screen and (max-width: 480px) {
+#articles {
+width: 100%;
+}
+#main {
+width: 90%;
+padding:2% 5%;
+}
+}

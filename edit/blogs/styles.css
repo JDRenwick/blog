@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+
+---------------------------------------------
+Style sheet version 0.0.0
+Last edited 12/2/14
+By James Renwick
+---------------------------------------------
+
+Contents:
+
+1 - Basic element styles
+2 - Layout styles
+	2.1 - header
+	2.2 - nav
+	2.3 - main
+	2.5 - footer
+3 - Spaces
+
+*/
+
+/*  1 - Basic element styles  */
+
+body,
+html {
+margin:0;
+padding:0;
+color:#000;
+background: #242424;
+font-family: helvetica;
+}
+
+* html #footer {
+height:1px;
+}
+
+h1 {
+margin:0;
+font-size: 3em;
+color: white;
+}
+h2 {
+margin:0 0 1em;
+font-size: 2.5em;
+text-shadow: rgba(51,51,51,0.7) 2px 2px 2px;
+}
+p {
+    font-size: 1.2em;
+	1em
+;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-shadow: rgba(51,51,51,0.7) 2px 2px 2px;
+}
+
+
+/*  2 - Layout styles  */
+
+
+#wrap {
+width: 100%;
+height: 100%;
+max-width: 1600px;
+margin:0 auto;
+background: #5C5C63; 
+background-position:fixed;
+-webkit-background-size: cover;    
+-moz-background-size: cover;    
+-o-background-size: cover;    
+background-size: cover;
+}
+
+/* Used when background fixed does not work */
+#wrap.plain {
+background: url(../img/nav2.png) repeat center center !important;
+    -webkit-transition: background 1s ease-in;  
+    -moz-transition: background 1s ease-in;  
+    -o-transition: background 1s ease-in;  
+    transition: background 1s ease-in; 
+}
+
+/*  2.1 - header  */
+
+#header {
+padding:5px 10px;
+background:#ddd;
+padding: 1%;  
+background: #808080;  
+background-image: url(../img/nav2.png);  
+color: white;
+}
+
+#header a {
+	text-decoration:none;
+	color:white;
+}
+
+#header h1 {
+	font-size:2em;
+}
+
+/*  2.2 - nav  
+
+#nav {
+padding:5px 10px;
+background: #808080;
+background-image: url(img/nav2.png);  color: white;
+}
+
+#nav ul {
+margin:0;
+padding:0;
+list-style:none;
+}
+#nav li {
+display:inline;
+margin:0;
+padding:0;
+}*/
+
+
+/*  2.3 - main  */
+
+#main {
+	position:relative;
+width: 76%;
+margin: 0% auto 5%;
+padding: 2%;
+background:#9c9;
+background: rgb(145, 145, 145);  
+background: rgba(145, 145, 145, 0.8);
+background-image: aliceblue;  color: white;
+    -webkit-transition: margin 1s ease-in;  
+    -moz-transition: margin 1s ease-in;  
+    -o-transition: margin 1s ease-in;  
+    transition: margin 1s ease-in; 
+}
+
+
+/*  2.4 - sidebar  
+
+
+#sidebar {
+float:left;
+width:230px;
+padding:10px;
+background-image:url(img/nav.png);
+color:white;
+}*/
+
+/*  2.5 - footer  */
+
+
+#footer {
+clear:both;
+padding:5px 10px;
+background:#cc9;
+}
+#footer p {
+margin:0;
+}
+
+
+
+
+
+/*  4 - Tablets  */
+
+@media only screen and (max-width: 800px) {
+#main {
+	margin-top:56%;
+width: 86%;
+    -webkit-transition: margin 1s ease-in;  
+    -moz-transition: margin 1s ease-in;  
+    -o-transition: margin 1s ease-in;  
+    transition: margin 1s ease-in; 
+}
+}
+
+/*  5 - Mobiles  */
+
+@media only screen and (max-width: 480px) {
+}

@@ -1,0 +1,32 @@
+<div id="main">
+<h2>The Unexpected Familiarity of Watch Dogs</h2>
+<p>This time last year, Ubisoft’s Watch Dogs was busy gobsmacking gamers plugged into the E3 2012 conference. The open world action game seemed to come out of nowhere, quite a remarkable feat on Ubisoft’s behalf considering how rare a commodity secrecy is at the biggest video game expo of the year. Watch Dogs left the conference dripping with ribbons, the darling of 2012, unequivocally.</p>
+
+<p>This year, without the luxury of a thrilling reveal trailer, or the excited, vague mutterings around ‘next-gen,’ Ubisoft had to follow up on Watch Dogs’ initial hype with hard evidence of its originality, stylishness, and indeed, ‘next-gen-ness.’</p>
+
+<p>And, deliver it did.</p>
+
+<p>Watch Dogs is something of an anomaly, insofar as it looks and feels next-gen native but is still being released on current generation consoles, part of what will presumably be a short-lived cross-gen era for such ambitious titles. How the Xbox 360, PlayStation 3 or Wii U will be able to cope with the sheer size of Watch Dogs, I’m not sure - one can only presume that Ubisoft Montreal has learned a few optimization tricks from working with next-generation hardware.</p>
+
+<p>The feat will be an impressive one, because Watch Dogs’ most endearing quality is its scope. If one thing defined next-gen for me at E3 this year, it was the amount of stuff developers can now fit – or at least, are trying to fit - into a game. Linearity is out, open-world is in. Player choice is the quality every developer is striving for. Freedom is underlined, then bolded, then coated in candy sprinkles.</p>
+
+<p>At its behind closed doors E3 demo, Ubisoft was keen to demonstrate how Watch Dogs ticks all these boxes, in a free-roaming slice of gameplay devoid of missions or objectives. While the demo was eyes-on only, it was a joy to watch, so anarchic was the Ubisoft rep’s loitering in the game’s version of Chicago. The sheer amount of options the game appears to present the player knocked me for six.</p>
+
+<p>Before I outline a handful of these, it’s important to note that Watch Dogs’ foundations remain rooted in familiarity. This is a game which draws ideas from other games and wraps those ideas in a new context. Our protagonist’s broad goal in any given district, for example, was to hack into its tech via individual mainframes. Once ‘hacked,’ that district is essentially unlocked, akin to the conquerable maps of Assassin’s Creed or Far Cry. The shtick is new, but ultimately, the objectives are old.</p>
+
+<p>The novelty in Watch Dogs lies, then, in deciding how you will approach these objectives. In the demo we saw, the Ubisoft rep had protagonist Aiden infiltrate a mainframe by distracting a guard by hacking open a loud automatic door, followed by a stealth kill, a couple of bullets to a couple of heads and eventually possession of a security camera, which revealed the codes he needed. While the section would have been rehearsed to the nth, it was a lithe, stylish approach, and reinforced that underlying sense of possibility the game teases.</p>
+
+<p>Once a district is unlocked, Watch Dogs blossoms. The technology-based world is suddenly peppered with pop-up options Aiden can select with his phone, a hotbed of glorious, interactive stuff.  The world appeared to me, while watching this Ubisoft rep essentially play kick-the-can throughout this alternate Chicago, limitless. It asks you: what do you want to do? And then presents you with a crème de la crème of gameplay options plucked from years of worth of Ubisoft Montreal's experimentation in open worlds.</p>
+
+<p>There’s the ‘crime precognition’ option, for example. NPCs can now be scanned to reveal top-line factoids (some of which are darkly humorous, such as ‘religious forums troll’.) The point is to reveal their ‘crime prediction’ meter: the higher the rating on said meter, the more likely they are to be a victim.</p>
+
+<p>So when Aiden spots one woman's high rating, off he goes, tailing her at a safe distance so as to not be spotted, until she is accosted by a furious ex-lover who begins to throttle her. Aiden intervenes, the guy runs away, a chase ensues, a car blows up, and we move, with an air of cool nonchalance, onto something new.</p>
+
+<p>Again, there’s nothing inherently new about this sort of objective, it’s merely ‘tail a guy’ with an interesting narrative wrapper, but it’s just one of many ways in which to spend time in Watch Dogs’ world. Want to steal money or just see how the better half lives? Hack into a wireless access point and infiltrate someone’s webcam. Want to perform stunts in your car? You can, and you’ll be rewarded for it. Want to change the song on the radio? Hack into a local radio station.</p>
+
+<p>Players can even hack into other players’ games in Watch Dogs, a premise that was vaguely outlined (just how many people can hack into your game at one time? At what point will being hacked by your friends become horrendously annoying?) but extremely seductive in theory. You will want to mess with your buddies’ worlds during that critical point in their mission, you sadistic bastard.</p>
+
+<p>There's a morality system at play here, too, one which seems a little more nuanced than the usual binary kind, at least within a narrative context. At one point the Ubi rep hacked into the Wi-fi connection of a random apartment, giving him full access to bank details and pin numbers. We hear a baby cry. "Will you steal from a young family?" poses the rep. While your decisions to these moral quandaries are attached to what sounds like a formulaic Reputation system, there's a sinister edge to them that could yield some truly sadistic results. It will be interesting to see how Ubisoft plays with Aiden's evolution if he does indeed decide to steal from the mouths of babes.</p>
+
+<p>Ultimately, Watch Dogs is a promising example of how a publisher is ushering in the next generation by drawing, expertly, from the last. It’s a game that looks to offer something for everyone, a game that players can bend and twist to suit their own style. It also feels like a coda to Ubisoft's best work of the last ten or so years, handled by a studio that  knows by now what works and what doesn't in an open world. It's big, and it's mightily ambitious. For these reasons, it’s my game of show at E3 2013.</p>
+</div>
